@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import Header from './components/Header'
+import Footer from './components/Footer'
 import MainBody from './components/MainBody'
 
 const App = () => {	
@@ -7,6 +7,7 @@ const App = () => {
 	    <div>
 	      <Header />
 	      <MainBody />
+	      <Footer />
 	    </div>
   	)	
 }
