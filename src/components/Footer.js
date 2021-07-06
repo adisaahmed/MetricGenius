@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom'
+
+
 const Footer = () => {
 	return(
 	    <div>
@@ -7,7 +10,7 @@ const Footer = () => {
 		                <div class="row footer-top-29">
 		                    <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
 		                        <div class="footer-logo mb-3">
-		                            <a class="navbar-brand" href="index.html">
+		                            <a class="navbar-brand" href="/">
 		                                LOGO
 		                            </a>
 		                        </div>
@@ -19,7 +22,7 @@ const Footer = () => {
 
 		                        <ul>
 		                            <h6 class="footer-title-29">Quick Links</h6>
-		                            <li><a href="about.html">About Us</a></li>
+		                            <li><a href="/about">About Us</a></li>
 		                            <li><a href="classes.html"> Experts</a></li>
 		                            <li><a href="#blog">Sure Games</a></li>
 		                        </ul>
@@ -49,7 +52,7 @@ const Footer = () => {
 		    <section class="w3l-copyright">
 		        <div class="container">
 		            <div class="row bottom-copies">
-		                <p class="col-lg-8 copy-footer-29">© 2021 Metric Genius. All rights reserved. Design by <a
+		                <p class="col-lg-8 copy-footer-29">© 2021 Metric Genius. All rights reserved. Powered by <a
 		                        href="https://amcolabs.com/" target="_blank">
 		                        Amco Hub</a></p>
 

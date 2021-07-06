@@ -1,12 +1,15 @@
+import { Link } from 'react-router-dom'
+
+
 const Header = () => {
 	return(
 	    <header id="site-header" class="fixed-top">
         	<div class="container">
             	<nav class="navbar navbar-expand-lg stroke px-0">
 	                <h1>
-	                    <a class="navbar-brand" href="index.html">
+	                    <Link class="navbar-brand" to="/">
 	                        LOGO
-	                    </a>
+	                    </Link>
 	                </h1>      
 				    
 	                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
@@ -18,17 +21,17 @@ const Header = () => {
 
 	                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 	                    <ul class="navbar-nav mx-lg-auto">
-	                        <li class="nav-item active">
-	                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+	                        <li class="nav-item">
+	                            <Link class="nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
 	                        </li>
 	                        <li class="nav-item">
-	                            <a class="nav-link" href="about.html">About Us</a>
+	                            <Link class="nav-link" to="/about">About Us</Link>
 	                        </li>
 	                        <li class="nav-item">
-	                            <a class="nav-link" href="classes.html">Experts</a>
+	                            <Link class="nav-link" to="/experts">Experts</Link>
 	                        </li>
 	                        <li class="nav-item">
-	                            <a class="nav-link" href="contact.html">Contact Us</a>
+	                            <Link class="nav-link" to="/contact">Contact Us</Link>
 	                        </li>
 	                    </ul>
 	                </div>

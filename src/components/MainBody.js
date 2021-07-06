@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom'
+
+
 const MainBody = () => {
 	return (
 		<div>
@@ -16,7 +19,7 @@ const MainBody = () => {
 	                        </h3>
 		                    <p>We use revalant statistics, methodologies, and trends to estimate our predictions</p>
 		                    <div class="mt-md-5 mt-4 mb-lg-0 mb-4">
-		                        <a class="btn btn-primary btn-style" href="classes.html">View Sure Games</a>
+		                        <Link class="btn btn-primary btn-style" to="/experts">View Sure Games</Link>
 		                    </div>
 		                </div>
 		            </div>
@@ -32,7 +35,7 @@ const MainBody = () => {
 		            <div class="row bottom_grids mt-5 pt-lg-3">
 		                <div class="col-lg-3 col-md-6 px-lg-2">
 		                    <div class="s-block">
-		                        <a href="classes.html" class="d-block">
+		                        <a to="classes.html" class="d-block">
 		                            <div class="p-3">
 		                                <h3 class="mb-2">Lino Lion</h3>
 		                                <ul>
@@ -59,7 +62,7 @@ const MainBody = () => {
 		                </div>
 		                <div class="col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-4 grid-4-col">
 		                    <div class="s-block">
-		                        <a href="classes.html" class="d-block">
+		                        <a to="classes.html" class="d-block">
 		                            <div class="p-3">
 		                                <h3 class="mb-2">Amco Lino</h3>
 		                                <ul>
@@ -155,14 +158,14 @@ const MainBody = () => {
 		                                <span class="fa fa-bullhorn" aria-hidden="true"></span>
 		                            </div>
 		                            <div class="feature-info">
-		                                <a href="about.html">
+		                                <Link to="/expertregister">
 		                                    <h3 class="feature-titel">Become An Expert</h3>
-		                                </a>
+		                                </Link>
 		                                <p class="feature-text">
 		                                	Your goal to become an expert isn't to look and feel like a giant smartypants. It's to help your subscribers, clients, and customers WIN.
 		                                </p>
-		                                <a href="about.html" class="feature-link">GET STARTED <span
-		                                        class="arrow">&raquo;</span></a>
+		                                <Link to="/expertregister" class="feature-link">GET STARTED <span
+		                                        class="arrow">&raquo;</span></Link>
 		                            </div>
 		                        </div>
 		                    </div>
@@ -172,14 +175,14 @@ const MainBody = () => {
 		                                <span class="fa fa-users" aria-hidden="true"></span>
 		                            </div>
 		                            <div class="feature-info">
-		                                <a href="about.html">
+		                                <Link to="about.html">
 		                                    <h3 class="feature-titel">Get Sure Games</h3>
-		                                </a>
+		                                </Link>
 		                                <p class="feature-text">
 		                                	If unsure, simply subscribe to our EXPERT which are 99.9% sure and guaranteed. Get 5 to 10 sure odds daily.
 		                                </p>
-		                                <a href="about.html" class="feature-link">SUBSCRIBE NOW <span
-		                                        class="arrow">&raquo;</span></a>
+		                                <Link to="/experts" class="feature-link">SUBSCRIBE NOW <span
+		                                        class="arrow">&raquo;</span></Link>
 		                            </div>
 		                        </div>
 		                    </div>
@@ -189,15 +192,15 @@ const MainBody = () => {
 		                                <span class="fa fa-umbrella" aria-hidden="true"></span>
 		                            </div>
 		                            <div class="feature-info">
-		                                <a href="about.html">
+		                                <Link to="/contact">
 		                                    <h3 class="feature-titel">We are here for you 24/7</h3>
-		                                </a>
+		                                </Link>
 		                                <p class="feature-text">
 		                                	We take pride in our service excellence and efficiency, and we maintain a service desk that responds at all times.
 		                                </p>
 		                                <div class="hover">
-		                                    <a href="about.html" class="feature-link">FIND OUT MORE <span
-		                                            class="arrow">&raquo;</span></a>
+		                                    <Link to="/contact" class="feature-link">CONTACT US <span
+		                                            class="arrow">&raquo;</span></Link>
 		                                </div>
 		                            </div>
 		                        </div>
@@ -225,36 +228,44 @@ const MainBody = () => {
 		                    <div class="row mt-md-5 mt-3">
 		                        <div class="col-sm-6 left-insp-art">
 		                            <ul>
-		                                <li><i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i><a
-		                                        href="classes.html">Accurate Predictions</a>
+		                                <li>
+		                                	<i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i>
+		                                	Accurate Predictions
 		                                </li>
-		                                <li><i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i><a
-		                                        href="classes.html">Good Strategy</a></li>
-		                                <li><i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i><a
-		                                        href="classes.html">Stake on good Team</a>
+		                                <li>
+		                                	<i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i>
+		                                	Good Strategy
+	                                	</li>
+		                                <li>
+		                                	<i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i>
+		                                	Stake on good Team
 		                                </li>
-		                                <li><i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i><a
-		                                        href="classes.html">We good in predicting</a>
+		                                <li>
+		                                	<i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i>
+		                                	We good in predicting
 		                                </li>
 		                            </ul>
 		                        </div>
 		                        <div class="col-sm-6 left-insp-art">
 		                            <ul>
-		                                <li><i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i><a
-		                                        href="classes.html">Get Excellent Predictions</a>
+		                                <li>
+		                                	<i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i>
+		                                	Get Excellent Predictions
 		                                </li>
-		                                <li><i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i><a
-		                                        href="classes.html">Win More</a>
+		                                <li>
+		                                	<i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i>
+		                                	Win More
 		                                </li>
-		                                <li><i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i><a
-		                                        href="classes.html">Seasonal
-		                                        Tips</a></li>
-		                                <li><i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i><a
-		                                        href="classes.html">Paramount Benefits</a>
+		                                <li>
+		                                	<i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i>
+		                                	Seasonal Tips
+                                        </li>
+		                                <li>
+		                                	<i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i>
+		                                	Paramount Benefits
 		                                </li>
 		                            </ul>
 		                        </div>
-
 		                    </div>
 		                </div>
 		            </div>
