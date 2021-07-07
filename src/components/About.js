@@ -165,13 +165,9 @@ const About = () => {
 		                        </p>
 		                    </div>
 		                    <div class="form-right-inf mt-5">
-		                        <form action="#" method="post" class="signin-form">
-		                            <div class="forms-gds">
-		                                <div class="btn btn-style btn-primary button-eff-news">
+		                        <div class="btn btn-style btn-primary button-eff-news">
 		                                    <button class="btn">GET SURE GAMES NOW!</button>
 		                                </div>
-		                            </div>
-		                        </form>
 		                    </div>
 		                </div>
 		            </div>

@@ -17,7 +17,7 @@ const MainBody = () => {
 		                        	<span class="text-js"> SITE</span>
 	                        	</span>
 	                        </h3>
-		                    <p>We use revalant statistics, methodologies, and trends to estimate our predictions</p>
+		                    <p>We use relevant statistics, methodologies, and trends to estimate our predictions</p>
 		                    <div class="mt-md-5 mt-4 mb-lg-0 mb-4">
 		                        <Link class="btn btn-primary btn-style" to="/experts">View Sure Games</Link>
 		                    </div>
@@ -143,7 +143,7 @@ const MainBody = () => {
 		                </div>
 		            </div>
 		            <div class="mt-5 mx-auto text-center">
-		                <a class="btn btn-primary btn-style" href="classes.html">View All Experts</a>
+		                <Link class="btn btn-primary btn-style" to="/experts">View All Experts</Link>
 		            </div>
 		        </div>
 		    </section>
@@ -279,8 +279,8 @@ const MainBody = () => {
 		                <p class="mt-3 pr-lg-5 mr-lg-5">
 		                	Metric Genius makes it very easy for visitors to win their games. We provide accurate and live statistics to visitors to aid their predictions.
 		                </p>
-		                <a href="about.html" class="btn btn-style btn-white mt-sm-5 mt-4 mr-2">Register as an Expert</a>
-		                <a href="contact.html" class="btn btn-style btn-primary mt-sm-5 mt-4">View Sure Games</a>
+		                <Link to="/expertregister" class="btn btn-style btn-white mt-sm-5 mt-4 mr-2">Register as an Expert</Link>
+		                <Link to="/experts" class="btn btn-style btn-primary mt-sm-5 mt-4">View Sure Games</Link>
 		            </div>
 		        </div>
 		    </div>
