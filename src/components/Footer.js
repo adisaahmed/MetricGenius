@@ -10,9 +10,9 @@ const Footer = () => {
 		                <div class="row footer-top-29">
 		                    <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
 		                        <div class="footer-logo mb-3">
-		                            <a class="navbar-brand" href="/">
+		                            <Link class="navbar-brand" to="/">
 		                                LOGO
-		                            </a>
+		                            </Link>
 		                        </div>
 		                        <p>
 		                        	Metric Genius makes it very easy for visitors to win, Join our Amazing online experts.
@@ -22,9 +22,9 @@ const Footer = () => {
 
 		                        <ul>
 		                            <h6 class="footer-title-29">Quick Links</h6>
-		                            <li><a href="/about">About Us</a></li>
-		                            <li><a href="classes.html"> Experts</a></li>
-		                            <li><a href="#blog">Sure Games</a></li>
+		                            <li><Link to="/about">About Us</Link></li>
+		                            <li><Link to="/experts"> Experts</Link></li>
+		                            <li><Link to="/experts">Sure Games</Link></li>
 		                        </ul>
 		                    </div>
 		                    <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-3 mt-lg-0 mt-5">
@@ -32,7 +32,7 @@ const Footer = () => {
 		                        <ul>
 		                            <li><a href="#privacy">Privacy Policy</a></li>
 		                            <li><a href="#terms"> Terms of Service</a></li>
-		                            <li><a href="contact.html">Contact us</a></li>
+		                            <li><Link tp="contact.html">Contact us</Link></li>
 		                        </ul>
 
 		                    </div>

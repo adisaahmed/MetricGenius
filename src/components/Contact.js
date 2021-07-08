@@ -8,7 +8,7 @@ const Footer = () => {
 		        <section class="w3l-breadcrumb">
 		            <div class="container">
 		                <ul class="breadcrumbs-custom-path">
-		                    <li><a href="index.html">Home</a></li>
+		                    <li><Link to="/">Home</Link></li>
 		                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> Contact Us</li>
 		                </ul>
 		            </div>

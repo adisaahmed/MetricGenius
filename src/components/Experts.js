@@ -24,7 +24,7 @@ const Experts = () => {
 			            <a href="#blog" class="d-block">
 			              <div class="p-3">
 			                <h3 class="mb-2">Lino Plenty</h3>
-			                <p>Morbi sed feugiat sapien, vitae luctus justo.</p>
+			                <p>Get professional football betting tips for today.</p>
 			                <strong class="fee-class-w3 mt-3">Subscribe</strong>
 			              </div>
 			            </a>
@@ -35,7 +35,7 @@ const Experts = () => {
 			            <a href="#blog" class="d-block">
 			              <div class="p-3">
 			                <h3 class="mb-2">Lino Plenty</h3>
-			                <p class="">Morbi sed feugiat sapien, vitae luctus justo.</p>
+			                <p class="">Subscribe and cash out. I drop nothing but sure games</p>
 			                <strong class="fee-class-w3 mt-3">Subscribe</strong>
 			              </div>
 			            </a>

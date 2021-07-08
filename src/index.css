@@ -14,3 +14,8 @@
 .the_custom_button_style {
 	text-align: center;
 }
+
+.become_expert {
+	text-transform: uppercase !important;
+	color: red !important;
+}
