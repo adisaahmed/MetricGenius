@@ -32,7 +32,7 @@ const About = () => {
 			            <p>
 			            	We've got you covered with a complete set of tips for all games. We’ve analysed millions of data points to form our betting model and give you expert match insight.
 			            </p>
-			            <Link to="/experts" class="btn btn-style btn-primary mt-sm-5 mt-4">Get Correct Games</Link>
+			            <Link to="/experts" class="btn btn-style btn-primary mt-sm-5 mt-4">Get Correct Games From Expert</Link>
 			          </div>
 			        </div>
 			      </div>
@@ -91,7 +91,7 @@ const About = () => {
 		                	Metric Genius makes it very easy for visitors to win their games. We provide accurate and live statistics to visitors to aid their predictions.
 		                </p>
 		                <Link to="/expertregister" class="btn btn-style btn-white mt-sm-5 mt-4 mr-2">Register as an Expert</Link>
-		                <Link to="/experts" class="btn btn-style btn-primary mt-sm-5 mt-4">View Sure Games</Link>
+		                <Link to="/experts" class="btn btn-style btn-primary mt-sm-5 mt-4">View Sure Experts</Link>
 		            </div>
 		        </div>
 		    </div>
