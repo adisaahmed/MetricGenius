@@ -5,6 +5,7 @@ import MainBody from './components/MainBody'
 import About from './components/About'
 import Experts from './components/Experts'
 import Contact from './components/Contact'
+import CustomerSignUp from './components/CustomerSignUp'
 
 const App = () => {	
 	return (
@@ -14,6 +15,7 @@ const App = () => {
       			<Route path='/' exact component={MainBody} />
 		      	<Route path='/about' component={About} />
 		      	<Route path='/experts' component={Experts} />
+		      	<Route path='/customersignup' component={CustomerSignUp} />
 		      	<Route path='/contact' component={Contact} />
 		      	<Footer />
 		    </div>

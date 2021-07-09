@@ -19,3 +19,17 @@
 	text-transform: uppercase !important;
 	color: red !important;
 }
+
+.input_password {
+	margin-top: 25px;
+}
+
+.register_page_big_p {
+	font-size: 20px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.register_page_small_p {
+	font-size: 18px;
+}
